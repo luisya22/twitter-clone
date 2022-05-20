@@ -1,4 +1,6 @@
-package com.luismatos.twitter_clone_backend;
+package com.luismatos.twitterclonebackend;
+
+
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.PostgreSQL81Dialect"
+  datasource:
+    url: "jdbc:postgresql://192.168.0.5:5432/twitterclone"
+    username: luis
+    password: local1234
+
+server:
+  port: 8081
+
